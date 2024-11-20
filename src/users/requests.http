@@ -1,0 +1,17 @@
+### Create new user
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+    "email": "Qm2dE2@example.com",
+    "password": "asdf"
+}
+
+### Sign in as an existing user
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+    "email": "Qm2dE@example.com",
+    "password": "asdf"
+}
