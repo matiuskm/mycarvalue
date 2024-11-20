@@ -15,3 +15,7 @@ content-type: application/json
     "email": "Qm2dE@example.com",
     "password": "asdf"
 }
+
+### Get logged in user
+GET http://localhost:3000/auth/me
+
